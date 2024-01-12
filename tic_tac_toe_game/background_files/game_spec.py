@@ -110,8 +110,8 @@ def run_game():
             break
         if check_for_winner():
             switch_player()
-            print(f"TIC-TAC-TOE...Player {current_player} won!!!\nGAME OVER....")
             print_board()
+            print(f"TIC-TAC-TOE...Player {current_player} won!!!\nGAME OVER....")
             break
 
         # GAME CONTINUATION CONDITIONS
